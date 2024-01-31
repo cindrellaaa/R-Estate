@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+
+    <title>R-Estate</title>
+    <meta content="" name="description" />
+    <meta content="" name="keywords" />
+
+    <!-- Bootstrap CSS CDN -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome ICON -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <!-- owl carousel -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+    />
+    <!-- isotope -->
+    <script src="https://cdn.jsdelivr.net/npm/isotope-layout@3.0.6/dist/isotope.pkgd.min.js"></script>
+    <!-- jquery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+
+    <!-- Main CSS File -->
+    <link href="style.css" rel="stylesheet" />
+  </head>
+
+  <body class="index-page" data-bs-spy="scroll" data-bs-target="#navmenu">
+    <div class="container-fluid mainContainer">
+      <!-- Navigation menu section -->
+      <nav class="navbar navbar-expand-md navbar-dark">
+        <a class="navbar-brand" href="index.html">R-Estate</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#collapsibleNavbar"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#listing">Listings</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+            <li class="nav-item last">
+              <a class="nav-link" href="#form">List Your Property</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <!-- legend section   -->
+      <div class="row legend">
+        <!-- legend introduction text -->
+        <div class="col legend__text">
+          <header class="introText">
+            <h1 class="introText__heading">
+              FIND <span>YOUR </span>PERFECT <span>HOME</span>.
+            </h1>
+            <p class="introText__link">
+              <a href="#"
+                >Check out all the listings <i class="fas fa-arrow-right"></i
+              ></a>
+            </p>
+          </header>
+        </div>
+      </div>
+    </div>
+    <!-- About Section - Home Page -->
+    <section id="about" class="container about">
+      <div class="container">
+        <div class="row align-items-xl-center gy-5">
+          <div class="col-xl-5 content">
+            <h3>About Us</h3>
+            <h2>Welcome to R-Estate</h2>
+            <p>
+              Where simplicity meets the search for your ideal home. Our
+              platform caters to both brokers and tenants, offering a
+              straightforward process to freely post details about villas or
+              apartments. We go beyond being just a platform, we are your
+              dedicated partner in simplifying the journey of finding or listing
+              the perfect home. Begin your exciting journey with us today!
+            </p>
+            <a href="#listing" class="read-more"
+              ><span>View Listing</span><i class="fa-solid fa-arrow-right"></i
+            ></a>
+          </div>
+
+          <div class="col-xl-7">
+            <div class="row gy-4 icon-boxes">
+              <div class="col-md-6">
+                <div class="icon-box">
+                  <i class="fa-solid fa-house"></i>
+                  <h3>Free Listings</h3>
+                  <p>
+                    Enjoy the freedom to showcase your property without any
+                    cost. We believe everyone deserves a chance to find the
+                    perfect home.
+                  </p>
+                </div>
+              </div>
+              <!-- End Icon Box -->
+
+              <div class="col-md-6">
+                <div class="icon-box">
+                  <i class="fa-solid fa-info"></i>
+                  <h3>Comprehensive Details</h3>
+                  <p>
+                    Get all the information you need at a glance. Listings
+                    include detailed information about each property, making it
+                    easy for you to make informed decisions.
+                  </p>
+                </div>
+              </div>
+              <!-- End Icon Box -->
+
+              <div class="col-md-6">
+                <div class="icon-box">
+                  <i class="fa-solid fa-magnifying-glass"></i>
+                  <h3>Easy Navigation</h3>
+                  <p>
+                    Our intuitive interface ensures a seamless experience for
+                    both listers and seekers. Finding your dream home or listing
+                    your property has never been this straightforward.
+                  </p>
+                </div>
+              </div>
+              <!-- End Icon Box -->
+
+              <div class="col-md-6 mt-5">
+                <div class="icon-box">
+                  <i class="bi bi-graph-up-arrow"></i>
+                  <h3>Delares sapiente</h3>
+                  <p>
+                    Sint et dolor voluptas minus possimus nostrum. Reiciendis
+                    commodi eligendi omnis quideme lorenda
+                  </p>
+                </div>
+              </div>
+              <!-- End Icon Box -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End About Section -->
+
+    <!-- property listing start -->
+    <div id="listing" class="container listing">
+      <h2 class="text-center mt-5" style="font-weight: 900">Our Listings</h2>
+      <div class="row" id="buttons">
+        <div class="owl-carousel owl-theme">
+          <div class="item">
+            <a class="buttons is-checked" data-filter="*">All</a>
+          </div>
+          <div class="item">
+            <a class="buttons" data-filter=".dubai">Dubai</a>
+          </div>
+          <div class="item">
+            <a class="buttons">Abu Dhabi</a>
+          </div>
+          <div class="item">
+            <a class="buttons">Ajman</a>
+          </div>
+          <div class="item">
+            <a class="buttons">Sharjah</a>
+          </div>
+          <div class="item">
+            <a class="buttons">Umm Al Quwain</a>
+          </div>
+          <div class="item">
+            <a class="buttons">Ras Al Khaimah</a>
+          </div>
+          <div class="item">
+            <a class="buttons">Fujairah</a>
+          </div>
+        </div>
+      </div>
+      <!-- loop start -->
+      <div class="container1 dubai">
+        <div class="col1">
+          <div class="row image">
+            <img src="assets/hero.jpg" alt="Image" />
+          </div>
+          <div class="row price">
+            <p>Price: 700 per month</p>
+          </div>
+        </div>
+        <div class="col2">
+          <div class="row">
+            <h2>Female Bedspace in Karama, Dubai</h2>
+          </div>
+          <div class="row">
+            <p>Rent is Paid: <span>Half Yearly</span></p>
+          </div>
+          <div class="features">
+            <a href="#">Feature 1</a>
+            <a href="#">Feature 2</a>
+            <a href="#">Feature 3</a>
+            <a href="#">Feature 4</a>
+            <a href="#">Feature 5</a>
+            <a href="#">Feature 6</a>
+            <a href="#">Feature 7</a>
+            <a href="#">Feature 8</a>
+            <a href="#">Feature 9</a>
+            <a href="#">Feature 10</a>
+            <a href="#">Feature 11</a>
+            <a href="#">Feature 12</a>
+            <a href="#">Feature 13</a>
+          </div>
+          <div class="contact-buttons">
+            <a href="#" class="whatsapp-button">WhatsApp us</a>
+            <a href="#" class="call-button">Call us</a>
+          </div>
+        </div>
+      </div>
+      <!-- loop end -->
+      <div class="container1 sharjah">
+        <div class="col1">
+          <div class="row image">
+            <img src="assets/hero.jpg" alt="Image" />
+          </div>
+          <div class="row price">
+            <p>Price: 700 per month</p>
+          </div>
+        </div>
+        <div class="col2">
+          <div class="row">
+            <h2>Female Bedspace in Karama, Dubai</h2>
+          </div>
+          <div class="row">
+            <p>Rent is Paid: <span>Half Yearly</span></p>
+          </div>
+          <div class="features">
+            <a href="#">Feature 1</a>
+            <a href="#">Feature 2</a>
+            <a href="#">Feature 3</a>
+            <a href="#">Feature 4</a>
+            <a href="#">Feature 5</a>
+            <a href="#">Feature 6</a>
+          </div>
+          <div class="contact-buttons">
+            <a href="#" class="whatsapp-button">WhatsApp us</a>
+            <a href="#" class="call-button">Call us</a>
+          </div>
+        </div>
+      </div>
+      <div class="container1 ajman">
+        <div class="col1">
+          <div class="row image">
+            <img src="assets/hero.jpg" alt="Image" />
+          </div>
+          <div class="row price">
+            <p>Price: 700 per month</p>
+          </div>
+        </div>
+        <div class="col2">
+          <div class="row">
+            <h2>Female Bedspace in Karama, Dubai</h2>
+          </div>
+          <div class="row">
+            <p>Rent is Paid: <span>Half Yearly</span></p>
+          </div>
+          <div class="features">
+            <a href="#">Feature 1</a>
+            <a href="#">Feature 2</a>
+            <a href="#">Feature 3</a>
+            <a href="#">Feature 4</a>
+            <a href="#">Feature 5</a>
+            <a href="#">Feature 6</a>
+          </div>
+          <div class="contact-buttons">
+            <a href="#" class="whatsapp-button">WhatsApp us</a>
+            <a href="#" class="call-button">Call us</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- property listing end -->
+
+    <script>
+      $(document).ready(function () {
+        $("#buttons .owl-carousel").owlCarousel({
+          loop: true,
+          nav: true,
+          dots: false,
+          responsive: {
+            0: {
+              items: 3,
+            },
+            600: {
+              items: 4,
+            },
+            1000: {
+              items: 9,
+            },
+          },
+        });
+
+        // Isotope initialization and filtering
+        var $grid = $(".row.g-5").isotope({
+          itemSelector: ".listing-box",
+          layoutMode: "fitRows",
+        });
+
+        // Filter items on button click
+        $("#buttons").on("click", "a", function () {
+          var filterValue = $(this).attr("data-filter");
+          $grid.isotope({ filter: filterValue });
+        });
+
+        // Change is-checked class on buttons
+        $(".buttons").on("click", function () {
+          $(".buttons").removeClass("is-checked");
+          $(this).addClass("is-checked");
+        });
+      });
+    </script>
+    <!-- owl carousel -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+    <!-- isotope -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js"></script>
+
+    <!-- Bootstrap JS CDN -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="index.js"></script>
+  </body>
+</html>
